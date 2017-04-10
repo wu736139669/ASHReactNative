@@ -1,7 +1,7 @@
 # ASHReactNative
 ReactNative-iOS 使用
 
-这套使用方法已经运用到线上，稳定运行很久了。
+这套使用方法已经运用到线上，稳定运行很久了(不过这个就是基础的使用方法，其中有一些其他问题，我还没有提炼进来)。
 ### 1.加载网络zip形式
 ```
 [[ASHReactNative shareInstance] pushRNViewControllerWithURL:@"http://static.seeyouyima.com/rn.meiyou.com/meiyou-rn.zip?model=tips"];
