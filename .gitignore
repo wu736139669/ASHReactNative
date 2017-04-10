@@ -23,5 +23,5 @@ xcuserdata
 *~
 
 # CocoaPods
-#Pods
-#Podfile.lock
+Pods
+Podfile.lock
