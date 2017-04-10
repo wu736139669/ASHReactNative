@@ -20,8 +20,7 @@
     AFHTTPSessionManager* sessionManager = [AFHTTPSessionManager manager];
     NSURLRequest* request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
     NSURLSessionDownloadTask* task = [sessionManager downloadTaskWithRequest:request progress:nil destination:^NSURL * _Nonnull(NSURL * _Nonnull targetPath, NSURLResponse * _Nonnull response) {
-//        return [NSURL fileURLWithPath:filePath];
-        return [NSURL URLWithString:filePath];
+        return [NSURL fileURLWithPath:filePath];
     } completionHandler:^(NSURLResponse * _Nonnull response, NSURL * _Nullable filePath, NSError * _Nullable error) {
         if (!error) {
             if (completedBlock) {

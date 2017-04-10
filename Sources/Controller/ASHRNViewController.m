@@ -113,6 +113,15 @@
 - (void)rnView:(ASHRNView *)rnView didFailed:(NSError *)error
 {
     [MBProgressHUD hideHUDForView:self.view animated:YES];
+    MBProgressHUD* progressHUD = [[MBProgressHUD alloc] initWithFrame:self.view.bounds];
+    
+    progressHUD.removeFromSuperViewOnHide = YES;
+    progressHUD.center = self.view.center;
+    progressHUD.label.text = @"加载失败";
+    [self.view addSubview:progressHUD];
+    
+    [progressHUD showAnimated:YES];
+    [progressHUD hideAnimated:YES afterDelay:1.0];
 }
 - (void)rnViewDidRenderFinish:(ASHRNView *)rnView
 {
