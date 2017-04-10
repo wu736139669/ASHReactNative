@@ -17,4 +17,4 @@ ReactNative-iOS 使用
 
 
 
-
+<img src="./ceshikan.gif" width=320 height=640/> 
