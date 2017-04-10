@@ -4,13 +4,12 @@
   "summary": "ASHReactNative",
   "description": "ASHReactNative",
   "license": "MIT",
-  "homepage": "http://www.meiyou.com",
+  "homepage": "https://github.com/wu736139669",
   "authors": {
-    "xxx": "xxx@qq.com"
+    "ash": "736139669@qq.com"
   },
   "source": {
-    "git": "https://github.com/wu736139669",
-    "branch": "master"
+    "git": "https://github.com/wu736139669/ASHReactNative.git"
   },
   "requires_arc": true,
   "platforms": {

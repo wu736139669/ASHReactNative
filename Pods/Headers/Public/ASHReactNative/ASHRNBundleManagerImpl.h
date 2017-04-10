@@ -1,1 +1,1 @@
-../../../../Sources/Impl/ASHRNBundleManagerImpl.h
+../../../ASHReactNative/Sources/Impl/ASHRNBundleManagerImpl.h

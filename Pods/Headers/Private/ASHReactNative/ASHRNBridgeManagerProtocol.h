@@ -1,1 +1,1 @@
-../../../../Sources/Protocol/ASHRNBridgeManagerProtocol.h
+../../../ASHReactNative/Sources/Protocol/ASHRNBridgeManagerProtocol.h

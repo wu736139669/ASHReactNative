@@ -1,1 +1,1 @@
-../../../../Sources/Protocol/ASHRNBundleManagerProtocol.h
+../../../ASHReactNative/Sources/Protocol/ASHRNBundleManagerProtocol.h

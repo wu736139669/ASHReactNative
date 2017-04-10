@@ -46,7 +46,7 @@ PODS:
   - ZipArchive (1.4.0)
 
 DEPENDENCIES:
-  - ASHReactNative (from `./`)
+  - ASHReactNative (from `https://github.com/wu736139669/ASHReactNative.git`)
   - React (= 0.42.0)
   - React/Core (= 0.42.0)
   - React/RCTActionSheet (= 0.42.0)
@@ -56,17 +56,22 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   ASHReactNative:
-    :path: "./"
+    :git: https://github.com/wu736139669/ASHReactNative.git
+
+CHECKOUT OPTIONS:
+  ASHReactNative:
+    :commit: 123a0275ba75874b430d1ce95697e741696a3f18
+    :git: https://github.com/wu736139669/ASHReactNative.git
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  ASHReactNative: 74b04ba2406490869c07e2a9b260cb8da7e802b1
+  ASHReactNative: 158a2c34aecadb1ce22cf9853b08b2e11d499e95
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   React: 8ec97f0d79ba31892c526cf56425937926cc9b48
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   Yoga: 77f4e44e919b274504599a3536cdc90140fb58d8
   ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 
-PODFILE CHECKSUM: 1599b87a9acbe65c41aa8760ab17c6016d51ce95
+PODFILE CHECKSUM: 071e8ad5c55f7ff9bd15ce7de653669afa44c63a
 
 COCOAPODS: 1.2.0

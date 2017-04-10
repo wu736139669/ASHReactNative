@@ -1,1 +1,1 @@
-../../../../Sources/Controller/ASHRNViewController.h
+../../../ASHReactNative/Sources/Controller/ASHRNViewController.h

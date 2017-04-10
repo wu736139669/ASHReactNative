@@ -12,6 +12,6 @@ pod 'React/RCTWebSocket' =>'0.42.0'
 pod 'React/RCTText' =>'0.42.0'
 pod 'React/RCTActionSheet' =>'0.42.0'
 
-pod 'ASHReactNative' ,:path => "./"
+pod 'ASHReactNative' ,:git => "https://github.com/wu736139669/ASHReactNative.git"
 
 end

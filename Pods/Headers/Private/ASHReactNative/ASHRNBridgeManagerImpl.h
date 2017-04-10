@@ -1,1 +1,1 @@
-../../../../Sources/Impl/ASHRNBridgeManagerImpl.h
+../../../ASHReactNative/Sources/Impl/ASHRNBridgeManagerImpl.h

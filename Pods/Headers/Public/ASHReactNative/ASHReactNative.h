@@ -1,1 +1,1 @@
-../../../../Sources/ASHReactNative.h
+../../../ASHReactNative/Sources/ASHReactNative.h
