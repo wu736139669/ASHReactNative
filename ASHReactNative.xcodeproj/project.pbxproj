@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99F8CD78A6D27A0CA97D10BD /* libPods-ASHReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F6F965370A8352F96875E8 /* libPods-ASHReactNative.a */; };
+		A92B99C81E9B64E800833271 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = A92B99C71E9B64E800833271 /* main.jsbundle */; };
+		A9D0D1C01E971FC10047CB88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D0D1BF1E971FC10047CB88 /* main.m */; };
+		A9D0D1C31E971FC10047CB88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D0D1C21E971FC10047CB88 /* AppDelegate.m */; };
+		A9D0D1C61E971FC10047CB88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D0D1C51E971FC10047CB88 /* ViewController.m */; };
+		A9D0D1C91E971FC10047CB88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D1C71E971FC10047CB88 /* Main.storyboard */; };
+		A9D0D1CB1E971FC10047CB88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D1CA1E971FC10047CB88 /* Assets.xcassets */; };
+		A9D0D1CE1E971FC10047CB88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D1CC1E971FC10047CB88 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FB8AA596208982C0DD584A8 /* Pods-ASHReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASHReactNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASHReactNative/Pods-ASHReactNative.release.xcconfig"; sourceTree = "<group>"; };
+		A92B99C71E9B64E800833271 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		A9D0D1BB1E971FC10047CB88 /* ASHReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASHReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D0D1BF1E971FC10047CB88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9D0D1C11E971FC10047CB88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9D0D1C21E971FC10047CB88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9D0D1C41E971FC10047CB88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9D0D1C51E971FC10047CB88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9D0D1C81E971FC10047CB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9D0D1CA1E971FC10047CB88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9D0D1CD1E971FC10047CB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9D0D1CF1E971FC10047CB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F6F965370A8352F96875E8 /* libPods-ASHReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASHReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D0FAD7A37A0A0F4EB83121 /* Pods-ASHReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASHReactNative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASHReactNative/Pods-ASHReactNative.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9D0D1B81E971FC10047CB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F8CD78A6D27A0CA97D10BD /* libPods-ASHReactNative.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086D7616AD5036E5003BE567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6F965370A8352F96875E8 /* libPods-ASHReactNative.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F787F1B99C3B15F6D8B1A92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7D0FAD7A37A0A0F4EB83121 /* Pods-ASHReactNative.debug.xcconfig */,
+				9FB8AA596208982C0DD584A8 /* Pods-ASHReactNative.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A92B99C31E9B5BC400833271 /* TestResource */ = {
+			isa = PBXGroup;
+			children = (
+				A92B99C71E9B64E800833271 /* main.jsbundle */,
+			);
+			path = TestResource;
+			sourceTree = "<group>";
+		};
+		A9D0D1B21E971FC10047CB88 = {
+			isa = PBXGroup;
+			children = (
+				A9D0D1BD1E971FC10047CB88 /* ASHReactNative */,
+				A9D0D1BC1E971FC10047CB88 /* Products */,
+				6F787F1B99C3B15F6D8B1A92 /* Pods */,
+				086D7616AD5036E5003BE567 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D0D1BC1E971FC10047CB88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D0D1BB1E971FC10047CB88 /* ASHReactNative.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9D0D1BD1E971FC10047CB88 /* ASHReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				A92B99C31E9B5BC400833271 /* TestResource */,
+				A9D0D1C11E971FC10047CB88 /* AppDelegate.h */,
+				A9D0D1C21E971FC10047CB88 /* AppDelegate.m */,
+				A9D0D1C41E971FC10047CB88 /* ViewController.h */,
+				A9D0D1C51E971FC10047CB88 /* ViewController.m */,
+				A9D0D1C71E971FC10047CB88 /* Main.storyboard */,
+				A9D0D1CA1E971FC10047CB88 /* Assets.xcassets */,
+				A9D0D1CC1E971FC10047CB88 /* LaunchScreen.storyboard */,
+				A9D0D1CF1E971FC10047CB88 /* Info.plist */,
+				A9D0D1BE1E971FC10047CB88 /* Supporting Files */,
+			);
+			path = ASHReactNative;
+			sourceTree = "<group>";
+		};
+		A9D0D1BE1E971FC10047CB88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9D0D1BF1E971FC10047CB88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9D0D1BA1E971FC10047CB88 /* ASHReactNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D0D1D21E971FC10047CB88 /* Build configuration list for PBXNativeTarget "ASHReactNative" */;
+			buildPhases = (
+				EB7C05B7B4BE975845BF0BD7 /* [CP] Check Pods Manifest.lock */,
+				A9D0D1B71E971FC10047CB88 /* Sources */,
+				A9D0D1B81E971FC10047CB88 /* Frameworks */,
+				A9D0D1B91E971FC10047CB88 /* Resources */,
+				4F88EF42A2D3439596EC86F0 /* [CP] Embed Pods Frameworks */,
+				BC2B674D299818F7646F3790 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASHReactNative;
+			productName = ASHReactNative;
+			productReference = A9D0D1BB1E971FC10047CB88 /* ASHReactNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9D0D1B31E971FC10047CB88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ash;
+				TargetAttributes = {
+					A9D0D1BA1E971FC10047CB88 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A9D0D1B61E971FC10047CB88 /* Build configuration list for PBXProject "ASHReactNative" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9D0D1B21E971FC10047CB88;
+			productRefGroup = A9D0D1BC1E971FC10047CB88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9D0D1BA1E971FC10047CB88 /* ASHReactNative */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9D0D1B91E971FC10047CB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D0D1CE1E971FC10047CB88 /* LaunchScreen.storyboard in Resources */,
+				A9D0D1CB1E971FC10047CB88 /* Assets.xcassets in Resources */,
+				A9D0D1C91E971FC10047CB88 /* Main.storyboard in Resources */,
+				A92B99C81E9B64E800833271 /* main.jsbundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F88EF42A2D3439596EC86F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASHReactNative/Pods-ASHReactNative-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2B674D299818F7646F3790 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASHReactNative/Pods-ASHReactNative-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB7C05B7B4BE975845BF0BD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9D0D1B71E971FC10047CB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D0D1C61E971FC10047CB88 /* ViewController.m in Sources */,
+				A9D0D1C31E971FC10047CB88 /* AppDelegate.m in Sources */,
+				A9D0D1C01E971FC10047CB88 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9D0D1C71E971FC10047CB88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D0D1C81E971FC10047CB88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9D0D1CC1E971FC10047CB88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D0D1CD1E971FC10047CB88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9D0D1D01E971FC10047CB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9D0D1D11E971FC10047CB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9D0D1D31E971FC10047CB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D0FAD7A37A0A0F4EB83121 /* Pods-ASHReactNative.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ASHReactNative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ash.ASHReactNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9D0D1D41E971FC10047CB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB8AA596208982C0DD584A8 /* Pods-ASHReactNative.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ASHReactNative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ash.ASHReactNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9D0D1B61E971FC10047CB88 /* Build configuration list for PBXProject "ASHReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D0D1D01E971FC10047CB88 /* Debug */,
+				A9D0D1D11E971FC10047CB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D0D1D21E971FC10047CB88 /* Build configuration list for PBXNativeTarget "ASHReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D0D1D31E971FC10047CB88 /* Debug */,
+				A9D0D1D41E971FC10047CB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9D0D1B31E971FC10047CB88 /* Project object */;
+}

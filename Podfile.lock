@@ -1,0 +1,72 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ASHReactNative (1.0):
+    - AFNetworking
+    - MBProgressHUD
+    - SDWebImage
+    - ZipArchive
+  - MBProgressHUD (1.0.0)
+  - React (0.42.0):
+    - React/Core (= 0.42.0)
+  - React/Core (0.42.0):
+    - React/cxxreact
+    - Yoga (= 0.42.0.React)
+  - React/cxxreact (0.42.0):
+    - React/jschelpers
+  - React/jschelpers (0.42.0)
+  - React/RCTActionSheet (0.42.0):
+    - React/Core
+  - React/RCTImage (0.42.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.42.0):
+    - React/Core
+  - React/RCTText (0.42.0):
+    - React/Core
+  - React/RCTWebSocket (0.42.0):
+    - React/Core
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - Yoga (0.42.0.React)
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - ASHReactNative (from `./`)
+  - React (= 0.42.0)
+  - React/Core (= 0.42.0)
+  - React/RCTActionSheet (= 0.42.0)
+  - React/RCTImage (= 0.42.0)
+  - React/RCTText (= 0.42.0)
+  - React/RCTWebSocket (= 0.42.0)
+
+EXTERNAL SOURCES:
+  ASHReactNative:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ASHReactNative: 74b04ba2406490869c07e2a9b260cb8da7e802b1
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  React: 8ec97f0d79ba31892c526cf56425937926cc9b48
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  Yoga: 77f4e44e919b274504599a3536cdc90140fb58d8
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+PODFILE CHECKSUM: 1599b87a9acbe65c41aa8760ab17c6016d51ce95
+
+COCOAPODS: 1.2.0
